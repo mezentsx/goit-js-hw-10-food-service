@@ -1,5 +1,5 @@
 import menu from './menu.json';
-import cardsTemplate from '../templates/card.hbs'
+import cardsTemplate from './templates/card.hbs'
 
 const Theme = {
   LIGHT: 'light-theme',
