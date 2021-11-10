@@ -1,5 +1,5 @@
 import menu from './menu.json';
-import cardsTemplate from './templates/card.hbs'
+import cardsTemplate from './templates/card.hbs';
 
 const Theme = {
   LIGHT: 'light-theme',
@@ -25,8 +25,8 @@ function settingDefault() {
     
     if (refs.body.classList.contains(Theme.DARK)) {
         refs.themeSwitch.checked = true;
-    }
-}
+    };
+};
 
 const markup = cardsTemplate(menu);
 refs.menu.insertAdjacentHTML('beforeend', markup);
